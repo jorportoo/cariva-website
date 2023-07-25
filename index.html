@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CARIVA</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/nav.custom.css" rel="stylesheet">
+	<link href="css/style.custom.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- Icon Font Stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		#main-nav.sticky {
+			position: fixed;
+			top: 0;
+		}
+
+		#main-nav {
+			z-index: 9;
+			width: 100%;
+			position: relative;
+		}
+
+	</style>
+</head>
+
+<body>
+	
+	<!--Head Slide Banner-->
+	<head class="banner-head">
+		<div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="background-banner01">
+						<div class="container-xxl">
+							<div class="row">
+								<img src="images/home/text-banner.png" class="img-fluid" alt="Banner">
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="carousel-item">
+					<div class="background-banner02">
+						<div class="container-xxl">
+							<div class="row">
+								<img src="images/home/text-banner.png" class="img-fluid" alt="Banner">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="carousel-item">
+					<div class="background-banner02">
+						<div class="container-xxl">
+							<div class="row">
+								<img src="images/home/text-banner02.png" class="img-fluid" alt="Banner">
+							</div>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>-->
+		</div>
+	</head>
+
+	<!--Nav Menu-->
+	<div id="main-nav">
+		<nav class="navbar navbar-expand-xxl navbar-dark bg-blue-nav p-0 m-0">
+			<div class="container-xxl">
+				<a class="navbar-brand" href="index.html"><img src="images/cariva-logo.svg" alt="Cariva Logo" class="py-2 py-xxl-0" style="width: 200px;"></a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item ">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about-us.html">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="building-blocks.html">Building Blocks</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Blocks Use Case
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="next-cercise-product.html">NextCercise Product</a></li>
+								<li><a class="dropdown-item" href="beaut-product.html">Beaut Product</a></li>
+								<li><a class="dropdown-item" href="arvic-product.html">Arvic Product</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="data-network.html">
+								Data Network</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="news-and-updates.html">News and updates</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact-us.html">Contact Us</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<!--Content Home-->
+	<div class="content-home space-padding">
+		<div class="container-xxl">
+			<div class="row">
+				<div class="col-md-6 wow fadeInDown">
+					<h2 class="content-title f-42 gradient-01">Health in Hand</h2>
+					<img src="images/home/img-content01.png" alt="Health in Hand" class="img-fluid w-100 py-3">
+					<p class="f-20 fw-200 sd-1">we're committed to transforming <color-green><b>the healthcare industry</b></color-green> by delivering cutting-edge technologies and innovative solutions. We provide advanced solutions and services that help healthcare providers deliver the highest quality care possible.</p>
+				</div>
+				<div class="col-md-6 mt-4 mt-md-0 forms-meet-ourteam wow fadeInDown">
+					<h2 class="content-title f-42 gradient-01">Meet our team</h2>
+					<form class="pt-3">
+						<fieldset>
+							<input class="form-control form-dark form-hight" placeholder="Name" type="text" tabindex="1" required>
+						</fieldset>
+						<fieldset>
+							<input class="form-control form-dark form-hight" placeholder="Phone" type="tel" tabindex="2" required>
+						</fieldset>
+						<fieldset>
+							<input class="form-control form-dark form-hight" placeholder="Work Email" type="email" tabindex="3" required>
+						</fieldset>
+						<fieldset>
+							<input class="form-control form-dark form-hight" placeholder="Company Name" type="text" tabindex="4" required>
+						</fieldset>
+						<fieldset>
+							<textarea class="form-control form-dark" placeholder="Let's us know your requirements" tabindex="5" rows="5" required></textarea>
+						</fieldset>
+						<fieldset class="d-flex justify-content-center">
+							<button name="submit" type="submit" id="contact-submit" data-submit="Sending" class="button-submit mt-4">Submit</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<div class="row space-content">
+				<div class="col-md-6 px-4 wow fadeInDown">
+					<div class="row block-building">
+						<div class="col-12">
+							<h2 class="title-building f-42">Building Blocks</h2>
+							<p class="f-18 fw-300 sd-1 mt-2 mt-lg-4">Enhance your business capabilities with a robust technology
+								infrastructure. Our agile modules scale alongside your business,
+								adapting to dynamic business requirements. We ensure that
+								our blocks are regularly updated to stay abreast of the latest
+								technological advancements.</p>
+						</div>
+						<div class="col-12 mt-4">
+							<a href="building-blocks.html">
+								<div class="button01-learn-more">Learn More..</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 mt-4 mt-md-0 px-4 wow fadeInDown">
+					<div class="row data-network">
+						<div class="col-12">
+							<h2 class="title-data-network f-42">Data Network</h2>
+							<p class="f-18 fw-300 sd-1 mt-2 mt-lg-4">With Cariva's data network provides a seamlessly collaborate
+								and communicate with different devices and partners,
+								including hospitals, labs, pharmacies, IoT, medical hardware
+								and wearable devices without any hassle or complications.</p>
+						</div>
+						<div class="col-12 mt-4">
+							<a class="button02-learn-more" href="data-network.html">Learn More..</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Our Partners-->
+	<div class="our-partner">
+		<div class="container-xxl wow fadeInDown">
+			<h1 class="content-title f-42 gradient-03">Our Partners</h1>
+			<div class="row mt-3 px-xl-5">
+				<div class="owl-carousel owl-theme" id="our-partner-carousel">
+					<div class="item">
+						<div><img src="images/home/our-partners/logo01-our-partners.png" alt="Arv Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo09-our-partners.png" alt="Mehug Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo02-our-partners.png" alt="BeDee Powered by BDMS Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo10-our-partners.png" alt="MTEC Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo03-our-partners.png" alt="Bedrock Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo11-our-partners.png" alt="PTTEP Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo04-our-partners.png" alt="BJC Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo12-our-partners.png" alt="ptt Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo05-our-partners.png" alt="Dhipaya Insurance Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo13-our-partners.png" alt="Siriraj Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo06-our-partners.png" alt="Enco Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo08-our-partners.png" alt="T.U.Hospital Logo" class="img-fluid"></div>
+					</div>
+					<div class="item">
+						<div><img src="images/home/our-partners/logo07-our-partners.png" alt="Healthplaza Logo" class="img-fluid"></div>
+						<div class="mt-2 mt-lg-3"><img src="images/home/our-partners/logo15-our-partners.png" alt="u2bio Logo" class="img-fluid"></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<footer>
+		<div class="container-xxl">
+			<div class="row d-flex align-items-center">
+				<div class="col-lg-4 col-xxl-4 px-0 px-lg-1 footer-link">
+					<ul>
+						<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						<li><a href="term-of-service.html">Terms of Service</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-5 col-xxl-4 pt-2 pt-lg-0 text-center">
+					<p>© 2023 Cariva (Thailand) Company Ltd. All Rights Reserved.</p>
+				</div>
+				<div class="col-lg-3 col-xxl-4 px-0 px-lg-1 social-link">
+					<a href="https://www.facebook.com/CarivaTech" class="fa-brands fa-facebook-f facebook"></a>
+					<a href="https://www.linkedin.com/company/carivath" class="fa-brands fa-linkedin-in in"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Back to Top -->
+	<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+	<!-- Javascript -->
+	<script src="js/jquery-2.0.2.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		let timVine = document.getElementById("content-under-nav");
+		let navbar = document.getElementById("main-nav");
+		let navPos = navbar.getBoundingClientRect().top;
+		window.addEventListener("scroll", e => {
+			let scrollPos = window.scrollY;
+			if (scrollPos > navPos) {
+				navbar.classList.add('sticky');
+				header.classList.add('navbarOffsetMargin');
+			} else {
+				navbar.classList.remove('sticky');
+				header.classList.remove('navbarOffsetMargin');
+			}
+		});
+
+	</script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+
+	</script>
+	<!-- Animate -->
+	<link href="css/animate.min.css" rel="stylesheet">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script>
+		$(document).ready(function() {
+			owl_banner = $("#our-partner-carousel");
+			owl_banner.owlCarousel({
+				loop: true,
+				margin: 25,
+				autoplay: true,
+				autoplayTimeout: 1800,
+				autoplayHoverPause: true,
+				nav: true,
+				navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+				mouseDrag: true,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 2,
+						margin: 8,
+
+					},
+					320: {
+						items: 3,
+						margin: 8,
+
+					},
+					600: {
+						items: 5,
+						margin: 10,
+
+					},
+					1000: {
+						items: 5,
+						margin: 15,
+					}
+				}
+			});
+		});
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+/* Custom CSS for hoverable dropdown */
+.navbar .dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+/* Custom styles for the navbar */
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M3 3L27 27M3 27l24-24'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler-icon {
+	transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	transform: rotate(90deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+	top: 0;
+	transform: rotate(-90deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+	bottom: 0;
+	transform: rotate(-90deg);
+}
+
+
+.bg-blue-nav {
+	background-color: #084c8c !important;
+	font-weight: 500 !important;
+}
+
+.navbar-nav {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255);
+
+}
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #11264A;
+	background-color: #000000;
+	background: linear-gradient(90deg, #A9D284 0%, #52ADBA 50%, #0161BA 100%);
+	font-weight: 500;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, .75);
+	color: #11264A;
+	background-color: #000000;
+	background: linear-gradient(90deg, #A9D284 0%, #52ADBA 50%, #0161BA 100%);
+	font-weight: 500;
+}
+
+.dropdown-item {
+	display: block;
+	width: 100%;
+	padding: 0.65rem 1rem;
+	clear: both;
+	font-weight: 500;
+	color: #ffffff;
+	text-align: inherit;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #084b8a;
+	border: 0;
+	border-top: 1px solid #215e98;
+	height: auto;
+	line-height: normal;
+}
+
+.dropdown-menu {
+	position: absolute;
+	z-index: 1000;
+	display: none;
+	min-width: 10rem;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	color: #212529;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .15);
+	font-weight: 500;
+	border-radius: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+	color: #11264a;
+	background-color: #ffffff;
+	color: #11264A;
+	background-color: #000000;
+	background: linear-gradient(90deg, #A9D284 0%, #52ADBA 50%, #0161BA 100%);
+	font-weight: 500;
+}
+
+.dropdown-menu[data-bs-popper] {
+	top: 100%;
+	left: -2px;
+	margin-top: -1px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+	text-decoration: none;
+	color: #11264A;
+	background-color: #000000;
+	background: linear-gradient(90deg, #A9D284 0%, #52ADBA 50%, #0161BA 100%);
+	font-weight: 500;
+}
+
+.nav-item {
+	font-size: 18px;
+	text-transform: uppercase;
+	height: 82px;
+	line-height: 64px;
+	background-color: #084C8C;
+}
+
+.flare {
+	background: #ef662b;
+}
+
+.flare a.nav-link {
+	color: #fff !important
+}
+
+.topbarElements > div:nth-of-type(1) {
+	font-size: 48px;
+	margin: 12px 32px;
+	color: #ef662b
+}
+
+.h-nav {
+	margin-top: 82px;
+}
+
+@media screen and (max-width:1399px) {
+	.h-nav {
+		margin-top: 64px;
+	}
+
+	.navbar-dark .navbar-nav .nav-link.active,
+	.navbar-dark .navbar-nav .show > .nav-link {
+		padding: 0.65rem 1rem;
+	}
+
+	.navbar-dark .navbar-nav .nav-link {
+		color: rgba(255, 255, 255);
+		padding: 0.65rem 1rem;
+	}
+
+	.nav-item {
+		font-size: 18px;
+		text-transform: uppercase;
+		height: auto;
+		line-height: 18px;
+		background-color: #084C8C;
+
+	}
+
+	.navbar-nav {
+		margin-bottom: 12px;
+		text-align: left;
+
+	}
+
+	.nav-item {
+		background: rgba(255, 255, 255, 0.1);
+		margin: 1px;
+
+	}
+}
